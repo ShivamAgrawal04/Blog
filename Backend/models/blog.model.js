@@ -24,7 +24,7 @@ const blogSchema = mongoose.Schema(
         trim: true,
       },
     ],
-    imageURL: {
+    imageUri: {
       type: String,
       trim: true,
     },
